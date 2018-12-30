@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- declares the primary language is English and that the text moves
+from left to right -->
+
+<head>
+  <!-- holds information about the webpage-->
+  <meta charset="utf-8">
+  <!-- all the text of the webpage is encoded using the utf8 coding system
+    utf8 is the standard encoding when using html5
+    utf8 includes most unicode characters
+    it gives your website the best chance of being rendered correctly by visitors
+    with international browswers
+   -->
+  <title>Marlene's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing=20>
+    <!-- Table containing the avatar, name and bio -->
+    <tr>
+      <td><img src="images/marlene2.png" alt="Marlene profile picture" height=300></td>
+      <td>
+        <h1>Marlene Orth</h1>
+        <p><em>Web Development Apprentice</em></p>
+        <!-- The emphasis bracket tells the browser that the words in between the brackets
+    should be emphasised; it conveys more information; the <i></i> brackets only change the style of the text.
+    It is therefore good practice to use the <em></em> brackets - remember: when we write html, we
+    are more concerned with structuring the text rather than styling it -->
+        <p>I am a hobby techie, currently learning the ropes of web development under the
+          tutelage of Angela Yu, founder and CTO of <strong>The App Brewery</strong>. When I
+          don't code, I am probably out for a run, out taking photographs or chilling
+          on the couch, watching a James Bond movie.</p>
+      </td>
+    </tr>
+  </table>
+
+  <hr size="2" noshade>
+
+  <h3>Education</h3>
+  <ul>
+    <li>Norwegian School of Economics, Norway
+      <ul>
+        <li>
+          <em><a href="https://www.nhh.no/en/study-programmes/economics-and-business-administration/msc-in-economics-and-business-administration/energy-natural-resources-and-the-environment/" target=_blank>M.Sc. Economics and Business
+              Administration, specialisation: Energy, Natural Resources and the Environment</a></em>
+        </li>
+        <li>
+          <em><a href="https://www.cems.org/mim" target=_blank>CEMS Master in International Management</a></em>
+        </li>
+      </ul>
+    </li>
+    <li>University of Stirling, Scotland, UK
+      <ul>
+        <li>
+          <em>B.A. Marketing and Spanish</em>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <hr>
+
+  <h3>Work Experience</h3>
+  <table cellspacing=10>
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2016 - present</td>
+        <td>Consultant for Renewable Energy and Energy Efficiency</td>
+      </tr>
+      <tr>
+        <td>2015 - 2016</td>
+        <td>Business Development Executive at Oldbaum Services</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h3>Skills</h3>
+  <table>
+    <!-- two column table containing my skills; contains two nested table -->
+    <tbody>
+      <tr>
+        <!-- only row of the overarching table -->
+        <td>
+          <!-- left cell of the overarching table -->
+          <table cellspacing=10>
+            <!-- first nested table; within the left cell of overarching table -->
+            <tr>
+              <td>Geothermal energy</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>District heating</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <!-- right cell of the overarching table -->
+          <table cellspacing=10>
+            <!-- second nested table; in the right cell of overarching table -->
+            <tr>
+              <td>Photography</td>
+              <td>⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Web development</td>
+              <td>⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <p><a href="hobbies.html" target=_blank>My Hobbies</a></p>
+  <p><a href="contact.html" target=_blank>Contact me</a></p>
+
+</body>
+
+</html>
